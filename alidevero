@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+    <head>
+    <title>Ali murtaza</title>
+       <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon"       href="img/favicon-32x32.png">
+        <style>
+        
+body{
+   margin:0;
+text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+   color: #40514E;
+    
+}
+.skils{
+     width: 25%; 
+    float: left;
+  margin-right: 8%;
+ 
+}
+.skil_2{
+         width: 25%;
+    float: right;
+    margin-left: 8%;
+   
+    
+    background-color:  #66BFBF;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+   
+}
+hr{
+    border-style: dotted none none;
+   border-width: 5px;
+    width: 5%;
+    color: darkgray;
+    margin: 100px auto;
+  
+   
+}
+
+h1{
+    
+   color:  #66BFBF;
+    font-size: 5.625rem;
+    transition: transform .1s;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h1:hover{
+    transform: scale(1.11);
+    transform-origin: center;
+}
+h2{
+    color:  #66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+h3{
+    color:#11999E;
+}
+a{
+   color:gray;
+    text-decoration: none;
+    margin: 20px 20px ;
+    font-family: 'Merriweather', serif;
+    
+}
+a:hover{
+color: black;
+}
+.uper {
+  background-color: #E4F5F9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+.lower{
+   
+}
+.bottom-cloud{
+    position: absolute;
+    left:500px;
+    bottom:300px;
+   
+}
+
+.uper-cloud{
+    position:absolute;
+   right:500px;
+    top:50px;
+
+}
+p{
+    line-height: 2;
+color: #40514E;
+}
+.contact_message{
+    width: 30%;
+    margin: 40px auto 60px ;
+}
+.intro{
+width: 30%;
+    margin: auto;
+}
+.bottom-container{
+    padding: 50px 0 20px ;
+    background-color: #66BFBF;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+ font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.last{
+color: white;
+    font-size: 0.86rem;
+    padding: 10px 0;
+}
+</style>
+    </head>
+    <body>
+        
+        <div class="uper">
+            <img class="uper-cloud" src="img/cloud.png" alt="cloud_img">
+               <h1>I'm Ali M</h1>
+               <h2>A <span>Stu</span>dent</h2>
+            <img class="bottom-cloud" src="img/cloud.png" alt="cloud_img">
+            <img src="img/mountain.png" alt="mountain_img">
+            
+        
+        </div>
+        <div class="middle-container">
+  <div class="profile">
+    <img class="profile_img" src="img/alid.png" alt="profile_img" height="170px" width="170px" >
+    <h2>Hello.</h2>
+    <p class="intro">I'm Ali Murtaza Devero,student of software at university of Sindh,im learning web development and after that i'll learn app development inshallah❤.</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="skils" src="img/computer.png" alt="coding_img"  width="25%" >
+      <h3>Desining & Development </h3>
+      <p >I don't have proper skill but im learning web development, and java , and making simple websites,i want to learn making web sites because it make me feel happy making things by my self. </p>
+    </div>
+    <div class="skill-row">
+      <img class="skil_2" src="img/manager.png" alt="skil_2" height="200px" width="200px">
+      <h3>Arrangments</h3>
+      <p >I also do arrangments of deferent functions in my university, like get to gether party, wellcome parties etc , because i don't like to be on stage i like to be behind the stage i'm kind of shy person . </p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If do things i do </h3>
+    <p class="contact_message">we can do coding while taking tea at any peace full place it will be fun &  we'll learn something new 😊. </p>
+    <a class="btn" href="https://mail.google.com/mail/u/0/#inbox">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/ali-murtaza-devero-750044223/">LinkedIn</a>
+  <a class="footer-link" href="https://www.instagram.com/">Instagram</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p class="last" >© 2021 Ali Murtaza © web development</p>
+</div>
+    </body>
+
+</html>
+    
